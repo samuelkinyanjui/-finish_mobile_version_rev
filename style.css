@@ -456,7 +456,7 @@ h4 {
 .flex-part2 {
   margin-bottom: 0;
   padding-bottom: 0;
-  margin-top: 0;
+  margin-top: -2rem;
   background-color: white;
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
