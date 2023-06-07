@@ -26,7 +26,7 @@ body {
   background-color: lightgray;
   min-height: 100%;
   flex-flow: column wrap;
-  width: 28rem;
+  width: 23.5rem;
 }
 
 .flex-item {
@@ -456,6 +456,7 @@ h4 {
 .flex-part2 {
   margin-bottom: 0;
   padding-bottom: 0;
+  margin-left: -2rem;
   margin-top: -2rem;
   background-color: white;
   font-family: Poppins, Arial, Helvetica, sans-serif;
