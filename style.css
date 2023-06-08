@@ -1,19 +1,20 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins&display=swap%22";
 
-body {  
+body {
   background: #e5e5e5;
   overflow-x: hidden;
-  border-width:0rem;
+  border-width: 0;
   padding: 0%;
   margin: 0%;
 }
+
 .fixed-header,
 .fixed-footer {
   height: 100%;
-   overflow-x: hidden;
-   width:100%;
+  overflow-x: hidden;
+  width: 100%;
   position: fixed;
-  border-width:0rem;
+  border-width: 0;
   background: #333;
   color: #fff;
 }
@@ -27,23 +28,24 @@ body {
 }
 
 .myportfolio {
-  background: #e5e5e5; 
-  border-width:0rem;
+  background: #e5e5e5;
+  border-width: 0;
   height: 100%;
-   overflow-x: hidden;
-   width:100%;
+  overflow-x: hidden;
+  width: 100%;
 }
+
 .toolbar_headline {
   display: flex;
   overflow: hidden;
   background: white;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   border-bottom-left-radius: 10rem 5rem;
-  border-width:0.01rem;
-  flex-flow: column wrap;  
+  border-width: 0.01rem;
+  flex-flow: column wrap;
   height: 100%;
-   overflow-x: hidden;
-   width:20.4375;
+  overflow-x: hidden;
+  width: 20.4375;
   order: 1;
   padding: 1rem;
 }
@@ -241,8 +243,8 @@ h2 {
   width: 3.0625rem;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   line-height: 1.2rem;
-  letter-spacing: 0.04em; 
-  padding: 0;   
+  letter-spacing: 0.04em;
+  padding: 0;
   color: #6070ff;
   background: #ebebff;
   border: 1.25rem;
@@ -367,7 +369,7 @@ h2 {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
   row-gap: 0.1rem;
-  padding:1rem;
+  padding: 1rem;
 }
 
 .workchildx {
@@ -498,8 +500,8 @@ h1 {
 
 .footer {
   height: 100%;
-   overflow-x: hidden;
-   width:100%;
+  overflow-x: hidden;
+  width: 100%;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -541,6 +543,7 @@ h4 {
   flex-shrink: 1;
   flex-basis: auto;
 }
+
 h5 {
   width: 10.3125rem;
   height: 1.5rem;
@@ -739,7 +742,7 @@ h5 {
   margin-top: 0;
   height: 100%;
   overflow-x: hidden;
-  width:100%;
+  width: 100%;
 }
 
 .caption-languagex {
