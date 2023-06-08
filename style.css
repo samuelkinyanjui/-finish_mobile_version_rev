@@ -1,16 +1,20 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins&display=swap%22";
 
-body {
-  min-width: 100%;
+body {  
   background: #e5e5e5;
+  overflow-x: hidden;
+  border-width:0rem;
+  padding: 0%;
+  margin: 0%;
 }
-
 .fixed-header,
 .fixed-footer {
-  width: 100%;
+  height: 100%;
+   overflow-x: hidden;
+   width:100%;
   position: fixed;
+  border-width:0rem;
   background: #333;
-  padding: 10px 0;
   color: #fff;
 }
 
@@ -23,18 +27,25 @@ body {
 }
 
 .myportfolio {
-  background: #e5e5e5;
+  background: #e5e5e5; 
+  border-width:0rem;
+  height: 100%;
+   overflow-x: hidden;
+   width:100%;
 }
-
 .toolbar_headline {
   display: flex;
   overflow: hidden;
   background: white;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   border-bottom-left-radius: 10rem 5rem;
-  flex-flow: column wrap;
-  width: 23.4rem;
+  border-width:0.01rem;
+  flex-flow: column wrap;  
+  height: 100%;
+   overflow-x: hidden;
+   width:20.4375;
   order: 1;
+  padding: 1rem;
 }
 
 .grid_item_tonic {
@@ -103,7 +114,7 @@ body {
   align-items: center;
   padding: 1rem;
   gap: 0.75rem;
-  width: 20.4375rem;
+  width: 18.4375rem;
   height: 34.5rem;
   background: #fff;
   border: 0.0625 solid #dfe1e6;
@@ -115,7 +126,7 @@ body {
 
 .flex_tonic_item1 {
   width: 18.4375rem;
-  height: 13.75rem;
+  height: 12.75rem;
   background: url("./img/tonic.png");
   border-radius: 0.5rem;
   flex: none;
@@ -126,7 +137,7 @@ body {
 
 .flex_mult_store2_item1 {
   width: 18.4375rem;
-  height: 13.75rem;
+  height: 12.75rem;
   background: url("./img/mutipost.png");
   border-radius: 0.5rem;
   flex: none;
@@ -137,7 +148,7 @@ body {
 
 .flex_tonic2_item1 {
   width: 18.4375rem;
-  height: 13.75rem;
+  height: 12.75rem;
   background: url("./img/projectthree.png");
   flex: none;
   order: 0;
@@ -148,7 +159,7 @@ body {
 
 .flex_mult_store_item1 {
   width: 18.4375rem;
-  height: 13.75rem;
+  height: 12.75rem;
   background: url("./img/projecttwo.png");
   flex: none;
   order: 0;
@@ -217,8 +228,10 @@ h2 {
   align-items: center;
   padding: 0;
   gap: 0.5rem;
-  width: 13.375rem;
+  width: 14.375rem;
   height: 1rem;
+  text-decoration: none;
+  list-style-type: none;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -228,7 +241,8 @@ h2 {
   width: 3.0625rem;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   line-height: 1.2rem;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.04em; 
+  padding: 0;   
   color: #6070ff;
   background: #ebebff;
   border: 1.25rem;
@@ -330,7 +344,7 @@ h2 {
   box-sizing: border-box;
   border: 0.16rem solid #dfe1e6;
   border-radius: 1rem;
-  width: 23.4375rem;
+  width: 17.1rem;
   height: 38.5rem;
   align-items: center;
 }
@@ -353,6 +367,7 @@ h2 {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
   row-gap: 0.1rem;
+  padding:1rem;
 }
 
 .workchildx {
@@ -361,7 +376,7 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  width: 18.56rem;
+  width: 17.1rem;
   height: 1.5rem;
   list-style: none;
   flex-grow: 1;
@@ -482,14 +497,16 @@ h1 {
 }
 
 .footer {
-  width: 25.4375rem;
+  height: 100%;
+   overflow-x: hidden;
+   width:100%;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.3rem;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color: white;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -524,7 +541,6 @@ h4 {
   flex-shrink: 1;
   flex-basis: auto;
 }
-
 h5 {
   width: 10.3125rem;
   height: 1.5rem;
@@ -721,7 +737,9 @@ h5 {
 .tab {
   display: flex;
   margin-top: 0;
-  width: 22rem;
+  height: 100%;
+  overflow-x: hidden;
+  width:100%;
 }
 
 .caption-languagex {
