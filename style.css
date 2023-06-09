@@ -559,24 +559,17 @@ h5 {
   flex-shrink: 1;
   flex-basis: auto;
 }
-h6{
-  
- 
-  height: 24px;  
-  
-  
-  font-family: 'Poppins';
+
+h6 {
+  height: 24px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
-  
   display: flex;
   align-items: center;
-  
-  color: #000000;
-  
+  color: #000;
 }
 
 #socialmedia {
@@ -742,7 +735,7 @@ h6{
   flex-grow: 1;
   background: white;
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  border-top-right-radius:80px;
+  border-top-right-radius: 80px;
   overflow: hidden;
   padding-left: 2rem;
   order: 11;
@@ -882,27 +875,18 @@ h6{
   transform: translate(5px, 0);
   transition: 0.5s all;
 }
-.ptext{
-  /* Languages */
 
-
-position: absolute;
-height: 24px;
-left: 12px;
-right: 78px;
-top: calc(50% - 24px/2);
-
-/* Body / 1 - Bolder */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height, or 120% */
-
-display: flex;
-align-items: center;
-
-color: #000000;
+.ptext {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
