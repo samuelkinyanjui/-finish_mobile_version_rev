@@ -889,13 +889,18 @@ border-top-left-radius: 4rem;
 left: 0px;
 background: #6070FF;
 overflow: hidden;
+ background-image: url(./img/contact-shapes-mobile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 7rem;
 
 }
 .flex_footer_container{
   display: flex;
   flex-direction: column;
   width: 23.4375rem;
-border-top-left-radius: 4rem;
+border-top-left-radius: 7rem;
 left: 0px;
 }
 .contactme_flex{  
