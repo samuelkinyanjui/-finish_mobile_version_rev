@@ -859,7 +859,7 @@ h6 {
   transition: 0.5s all;
 }
 
-.ptext {
+/* .ptext {
   position: absolute;
   height: 24px;
   left: 12px;
@@ -872,16 +872,8 @@ h6 {
   display: flex;
   align-items: center;
   color: #000;
-}
-.footer_card{ 
-width: 23.4375rem;
+} */
 
-left: 0px;
-
-background: white;
-overflow: hidden;
-
-}
 .footer_contact_form{
 display: flex;
 flex-direction: column;
@@ -891,8 +883,7 @@ height: 110vh;
 width: 23.4375rem;
 left: 0px;
 background: #6070FF;
-overflow: hidden;
-background-image: url("./img/header_mobile.png");
+background-image: url("./images/header-shapes-mobile.png");
 background-size: cover;
 background-position:center;
 background-repeat: no-repeat;
