@@ -883,13 +883,18 @@ overflow: hidden;
 
 }
 .footer_contact_form{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 110vh;
 width: 23.4375rem;
 left: 0px;
 background: #6070FF;
 overflow: hidden;
 background-image: url("./img/header_mobile.png");
 background-size: cover;
-background-position: center;
+background-position:center;
 background-repeat: no-repeat;
 border-top-left-radius: 7rem;
 
