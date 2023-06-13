@@ -873,7 +873,9 @@ h6 {
   align-items: center;
   color: #000;
 }
-
+.footer_card{
+	background:white;
+}
 .footer_contact_form {
   display: flex;
   flex-direction: column;
@@ -883,7 +885,7 @@ h6 {
   width: 23.4375rem;
   left: 0px;
   background: #6070ff;
-  background-image: url("./images/header-shapes-mobile.png");
+  background-image: url("./img/header-shapes-mobile.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
