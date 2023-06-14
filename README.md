@@ -1,10 +1,11 @@
 # My Portfolio
 
 This project contains My Portfolio for responsive mobile and desktop version.It shows you everything about me and the services I can provide.
+The project contains my form to contact me
 
 ## 🚀 Live Demo
 
-[Here](https://alusine-portfolio.netlify.app/)
+[Here](https://github.com/samuelkinyanjui/-finish_mobile_version_rev/tree/mycontact_branch)
 
 ## Built With
 
@@ -38,10 +39,10 @@ Navigate through the web page to find the information you need. Use the links in
 
 ## Authors
 
-👤 **Alusine Jalloh**
+👤 **Samuel kinyanjui**
 
-- GitHub: [@Alusp](https://github.com/Alusp)
-- LinkedIn: [@alusine-jalloh-873951209](linkedin.com/in/alusine-jalloh-873951209)
+- GitHub: [@Alusp](https://github.com/samuelkinyanjui)
+- LinkedIn: [@alusine-jalloh-873951209](linkedin.com/samuelkinyanjui)
  
 ## 🤝 Contributing
 
