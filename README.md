@@ -1,11 +1,11 @@
 # My Portfolio
 
-This project contains My Portfolio for responsive mobile and desktop version.It shows you everything about me and the services I can provide.
-The project contains my form to contact me
+This project contains My Portfolio  desktop version.It shows you everything about me and the services I can provide.
+I it server the clients when my mobile app is not accessible
 
 ## 🚀 Live Demo
 
-[Here](https://github.com/samuelkinyanjui/-finish_mobile_version_rev/tree/mycontact_branch)
+[Here](https://github.com/samuelkinyanjui/-finish_mobile_version_rev/desktopvesrion)
 
 ## Built With
 
@@ -41,8 +41,8 @@ Navigate through the web page to find the information you need. Use the links in
 
 👤 **Samuel kinyanjui**
 
-- GitHub: [@Alusp](https://github.com/samuelkinyanjui)
-- LinkedIn: [@alusine-jalloh-873951209](linkedin.com/samuelkinyanjui)
+- GitHub: [@samuel](https://github.com/samuelkinyanjui)
+
  
 ## 🤝 Contributing
 
