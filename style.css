@@ -6,7 +6,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-} 		
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -151,7 +151,7 @@ header {
   line-height: 1.8;
 }
 
-.about .left h2 {  
+.about .left h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
