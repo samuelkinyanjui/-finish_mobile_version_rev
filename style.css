@@ -21,6 +21,8 @@ body {
 .top-menu {
   background: #fff;
 }
+<!----top menu-->
+
 
 .top-menu .sub-menu {
   display: flex;
@@ -212,7 +214,7 @@ header section p {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396df2;
+  color: #396DF2;
 }
 
 .about .left p {
@@ -222,6 +224,10 @@ header section p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+.sps{
+  margin-top: 1px;
+
 }
 
 .contact .sub-contact p {
@@ -251,7 +257,7 @@ header section p {
   width: 100%;
   gap: 50px;
   background-color: #f7f7f9;
-  padding: 190px 110px 160px 110px;
+  padding: 30px 110px 160px 110px;
 }
 
 .card {
@@ -278,13 +284,15 @@ header section p {
 
 .works .action #buto {
   background-color: #4053fc;
+  order: 1;
 }
 
 .card .action .btn p {
-  color: #8300ff;
+  color: #396DF2;
   font-weight: 500;
   font-size: 12px;
   transition: 0.5s ease;
+  order: 5;
 }
 
 .card .action .btn p:hover {
@@ -325,9 +333,21 @@ header section p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  order:1;
   gap: 12px;
   width: 295px;
   height: 80px;
+}
+.textsecond{
+  order:2;
+
+}
+.thirdtext{
+  order:3
+}
+.fourthtext{
+  order:4;
+  margin-top: 2px;
 }
 
 .frame {
@@ -358,13 +378,18 @@ header section p {
 }
 
 .card .text {
-  width: 450px;
-  height: 50px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  color: #344563;
-  margin-top: 5px;
+
+width: 496px;
+height: 50px;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 2;
+flex-grow: 0;  
 }
 
 .card ul {
@@ -392,6 +417,7 @@ header section p {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  color: #396DF2;
 }
 
 .about .left .btn {
@@ -408,6 +434,7 @@ header section p {
 
 .card .action .btn {
   display: flex;
+  margin-top :2rem;
   flex-direction: row;
   text-align: center;
   background-color: #fff;
@@ -421,12 +448,12 @@ header section p {
 }
 
 .about .left .btn:hover {
-  background-color: #8300ff;
+  color: #396DF2;
   color: white;
 }
 
 .card .action .btn:hover {
-  background-color: #8300ff;
+  color: #396DF2;
 }
 
 .card #img2 {
@@ -643,7 +670,7 @@ input[type="submit"]:focus {
   color: #fff;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 768px) {
   .top-menu .sub-menu {
     display: flex;
     flex-direction: row;
@@ -730,6 +757,25 @@ input[type="submit"]:focus {
     height: 50px;
     font-size: 11px;
   }
+  .primary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order:1;
+    gap: 12px;
+    width: 295px;
+    height: 80px;
+  }
+  .textsecond{
+    order:2;
+  
+  }
+  .thirdtext{
+    order:3
+  }
+  .fourthtext{
+    order:4;
+  }
 
   .works #one,
   .works #two,
@@ -748,167 +794,9 @@ input[type="submit"]:focus {
     background-position: center;
     background-size: cover;
   }
-}
-
-@media screen and (max-width: 678px) {
-  .main-bar nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    margin: 1rem 1.5rem;
-  }
-
-  .top-menu .sub-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px auto auto auto;
-    padding: 1.5rem 1rem;
-  }
-
-  .main-bar header .sub-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    z-index: 10;
-    padding: 6rem 1.5rem;
-  }
-
-  .main-bar nav #humb {
-    display: flex;
-  }
-
-  .works {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    row-gap: 0.6rem;
-    justify-content: center;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 1rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(223, 225, 230);
-    border-image: initial;
-    width: 700px;
-    margin-left: 142px;
-    margin-right: 142px;
-  }
-
-  .card #img1,
-  .card #img2,
-  .card #img3,
-  .card #img4 {
-    width: 100%;
-  }
-
-  .card .text {
-    width: 250px;
-    height: 50px;
-    font-size: 9px;
-  }
-
-  .card #sub-left-block {
-    width: 260px;
-    height: 200px;
-  }
-
-  .works #one,
-  .works #two,
-  .works #three,
-  .works #four {
-    display: flex;
-    flex-direction: column;
-    width: 19rem;
-    margin: 3.125rem 1.5rem;
-  }
-
-  .about {
-    border-top-right-radius: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 7.125rem 1.5rem;
-    width: 100%;
-    height: 100%;
-  }
-
-  .about .left h1 {
-    font-size: 40px;
-  }
-
-  .about .skill ul {
-    display: block;
-    margin: 6px;
-    padding: 24px;
-  }
-
-  .skill {
-    display: flex;
-    flex-direction: column;
-    height: 35px;
-    width: 100%;
-  }
-
-  .left {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .skill .frame1 .language {
-    display: block;
-    flex-direction: column;
-    padding: 10px;
-    align-items: center;
-    border-radius: 8px;
-    gap: 20px;
-    width: 100%;
-  }
-
-  .language .sub-flame1 {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    border-radius: 8px;
-    margin: 12px;
-    padding: 9px 12px;
-  }
-
-  .contact::before {
-    content: "";
-    position: relative;
-    background-color: rgb(96, 112, 255);
-    background-image: url(./image/header-shapes-mobile.png);
-    background-size: contain;
-    border-top-left-radius: 5rem;
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .contact {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3.4375rem 1.5rem;
-    margin-top: 450px;
-  }
-
-  .contact .sub-contact p {
-    color: rgb(235, 235, 255);
-    text-align: center;
-    margin: 0.8rem 2.8rem;
-    font-weight: 550;
-    line-height: 18px;
-    font-size: 16px;
+  .sps{
+    margin-top: 0.4px;
   }
 }
+
+
