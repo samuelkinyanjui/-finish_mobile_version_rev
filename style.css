@@ -8,6 +8,38 @@ body {
   margin: 0%;
 }
 
+/* TODO animation and transition
+- picture animation
+- button animation
+*/
+
+.header .logo:hover {
+  animation: rotate_logo 2s ease-in;
+}
+
+.menu_wide ul li:hover {
+  color: red;
+}
+.show_case .img_p_holder:hover {
+  transition: transform 0.5s ease-in;
+  transform: scale(1.08);
+}
+
+.buttons a:hover {
+  border: #000 solid 2px;
+  transition: all 0.5s ease-in;
+}
+
+@keyframes rotate_logo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .myportfolio {
   width: 23.4375rem;
   height: 44.875rem;
