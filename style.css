@@ -466,14 +466,13 @@ header section p {
 }
 
 .card #img3 {
-
   width: 700px;
   height: 320px;
   background-image: url(./image/toxic.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
 .card #img4 {
@@ -553,13 +552,13 @@ header section h4 {
   font-size: 55px;
   border-radius: 8px;
 }
-.mobile-home{
-  width: 120%;
-   font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 9px;
 
+.mobile-home {
+  width: 120%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
 }
 
 .skill {
@@ -581,23 +580,10 @@ header section h4 {
   padding-bottom: 20px;
 }
 
-.skill .frame1 .language {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 8px;
-  gap: 10px;
-  width: 250px;
-}
-
 .language .sub-flame1 {
   background-color: #f7f7f9;
   padding: 15px;
   border-radius: 5px;
-}
-
-.language .sub-flame1 img {
-  width: 40px;
 }
 
 .language .sub-flame1 h3 {
@@ -682,167 +668,26 @@ input[type="submit"]:focus {
   color: #fff;
 }
 
-.top-menu .sub-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 10px 110px auto 110px;
-  padding: 1.5rem 1rem;
+.card #img1,
+.card #img2,
+.card #img3,
+.card #img4 {
+  width: 299px;
+  height: 220px;
 }
 
-.sub-menu #humb {
-  display: none;
-  width: 20px;
-  height: 20px;
+.card #sub-left-block {
+  width: 349px;
+  height: 200px;
 }
 
-.container .top-menu .sub-menu h1 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-}
-.sub-menu ul {
-  display: flex;
-  gap: 20px;
-}
-.sub-menu ul li a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  transition: all 1s ease-out;
+.works #one,
+.works #two,
+.works #three,
+.works #four {
+  width: 45.5rem;
 }
 
-.sub-menu ul li a:hover {
-  font-size: 20px;
-  border-bottom: 0.5px solid #0b42a1;
-  color: blue;
-  font-weight: bold;
-}
-
-  header {
-    display: flex;
-    background-image: url(./image/backgroundimg.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 5rem;
-  }
-
-  .main-bar header .sub-main {
-    display: flex;
-    flex-direction: column;
-    padding: 80px 100px 160px 100px;
-    line-height: 0;
-  }
-
-  .about .left h1 {
-    font-size: 20px;
-  }
-
-  .main-bar header .sub-main h1 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2;
-    letter-spacing: 0.35px;
-  }
-
-  .about .left p {
-    font-size: 16px;
-    justify-content: flex-start;
-  }
-
-  .main-bar header .sub-main p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-  .works {
-    padding-left: 50px;
-    padding-right: 30px;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-    gap: 12px;
-    width: 400px;
-    background-color: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-  }
-
-  .card #img1,
-  .card #img2,
-  .card #img3,
-  .card #img4 {
-    width: 299px;
-    height: 220px;
-  }
-
-  .card #sub-left-block {
-    width: 349px;
-    height: 200px;
-  }
-
-  .card .text {
-    width: 340px;
-    height: 50px;
-    font-size: 16px;
-  }
-
-  .primary {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    order: 1;
-    gap: 12px;
-    width: 295px;
-    height: 80px;
-  }
-
-  .textsecond {
-    order: 2;
-  }
-
-  .thirdtext {
-    order: 3;
-  }
-
-  .fourthtext {
-    order: 4;
-  }
-
-  .works #one,
-  .works #two,
-  .works #three,
-  .works #four {
-    width: 45.5rem;
-  }
-
-  .about {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .contact {
-    background-image: url(./image/background-contact-2.png);
-    background-position: center;
-    background-size: cover;
-  }
-
-  .sps {
-    margin-top: 0.4px;
-  }
-  
 @media screen and (max-width: 678px) {
   .main-bar nav {
     display: flex;
@@ -1003,7 +848,55 @@ input[type="submit"]:focus {
     font-weight: 550;
     line-height: 18px;
     font-size: 16px;
-  }  
+  }
+
+  .sub-menu ul li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    transition: all 1s ease-out;
+  }
+
+  header {
+    display: flex;
+    background-image: url(./image/backgroundimg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 5rem;
+  }
+
+  .main-bar header .sub-main p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .primary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 1;
+    gap: 12px;
+    width: 295px;
+    height: 80px;
+  }
+
+  .textsecond {
+    order: 2;
+  }
+
+  .thirdtext {
+    order: 3;
+  }
+
+  .sps {
+    margin-top: 0.4px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .top-menu .sub-menu {
     display: flex;
     flex-direction: row;
@@ -1011,13 +904,13 @@ input[type="submit"]:focus {
     margin: 10px 110px auto 110px;
     padding: 1.5rem 1rem;
   }
-  
+
   .sub-menu #humb {
     display: none;
     width: 20px;
     height: 20px;
   }
-  
+
   .container .top-menu .sub-menu h1 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1029,10 +922,12 @@ input[type="submit"]:focus {
     text-align: center;
     color: #6070ff;
   }
+
   .sub-menu ul {
     display: flex;
     gap: 20px;
   }
+
   .sub-menu ul li a {
     font-style: normal;
     font-weight: 500;
@@ -1041,187 +936,12 @@ input[type="submit"]:focus {
     color: #344563;
     transition: all 1s ease-out;
   }
-  
+
   .sub-menu ul li a:hover {
     font-size: 20px;
     border-bottom: 0.5px solid #0b42a1;
     color: blue;
     font-weight: bold;
-  }
-  
-    header {
-      display: flex;
-      background-image: url(./image/backgroundimg.png);
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      border-bottom-left-radius: 5rem;
-    }
-  
-    .main-bar header .sub-main {
-      display: flex;
-      flex-direction: column;
-      padding: 80px 100px 160px 100px;
-      line-height: 0;
-    }
-  
-    .about .left h1 {
-      font-size: 20px;
-    }
-  
-    .main-bar header .sub-main h1 {
-      font-weight: 700;
-      font-size: 30px;
-      line-height: 1.2;
-      letter-spacing: 0.35px;
-    }
-  
-    .about .left p {
-      font-size: 16px;
-      justify-content: flex-start;
-    }
-  
-    .main-bar header .sub-main p {
-      font-size: 20px;
-      line-height: 1.5;
-    }
-  
-    .works {
-      padding-left: 50px;
-      padding-right: 30px;
-    }
-  
-    .card {
-      display: flex;
-      flex-direction: row;
-      padding: 16px;
-      gap: 12px;
-      width: 400px;
-      background-color: #fff;
-      border: 1px solid #dfe1e6;
-      border-radius: 16px;
-    }
-  
-    .card #img1,
-    .card #img2,
-    .card #img3,
-    .card #img4 {
-      width: 299px;
-      height: 220px;
-    }
-  
-    .card #sub-left-block {
-      width: 349px;
-      height: 200px;
-    }
-  
-    .card .text {
-      width: 340px;
-      height: 50px;
-      font-size: 16px;
-    }
-  
-    .primary {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      order: 1;
-      gap: 12px;
-      width: 295px;
-      height: 80px;
-    }
-  
-    .textsecond {
-      order: 2;
-    }
-  
-    .thirdtext {
-      order: 3;
-    }
-  
-    .fourthtext {
-      order: 4;
-    }
-  
-    .works #one,
-    .works #two,
-    .works #three,
-    .works #four {
-      width: 45.5rem;
-    }
-  
-    .about {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  
-    .contact {
-      background-image: url(./image/background-contact-2.png);
-      background-position: center;
-      background-size: cover;
-    }
-  
-    .sps {
-      margin-top: 0.4px;
-    }
-  }
-
-@media only screen and (min-width: 768px) 
-{
-
-  
-.top-menu .sub-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 10px 110px auto 110px;
-  padding: 1.5rem 1rem;
-}
-
-.sub-menu #humb {
-  display: none;
-  width: 20px;
-  height: 20px;
-}
-
-.container .top-menu .sub-menu h1 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-}
-.sub-menu ul {
-  display: flex;
-  gap: 20px;
-}
-.sub-menu ul li a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  transition: all 1s ease-out;
-}
-
-.sub-menu ul li a:hover {
-  font-size: 20px;
-  border-bottom: 0.5px solid #0b42a1;
-  color: blue;
-  font-weight: bold;
-}
-
-  header {
-    display: flex;
-    background-image: url(./image/backgroundimg.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 5rem;
   }
 
   .main-bar header .sub-main {
@@ -1231,49 +951,9 @@ input[type="submit"]:focus {
     line-height: 0;
   }
 
-  .about .left h1 {
-    font-size: 20px;
-  }
-
-  .main-bar header .sub-main h1 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2;
-    letter-spacing: 0.35px;
-  }
-
-  .about .left p {
-    font-size: 16px;
-    justify-content: flex-start;
-  }
-
-  .main-bar header .sub-main p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
   .works {
     padding-left: 50px;
     padding-right: 30px;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-    gap: 12px;
-    width: 400px;
-    background-color: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-  }
-
-  .card #img1,
-  .card #img2,
-  .card #img3,
-  .card #img4 {
-    width: 299px;
-    height: 220px;
   }
 
   .card #sub-left-block {
