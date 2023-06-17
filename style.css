@@ -433,7 +433,7 @@ header section p {
 
 .card .action .btn {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   flex-direction: row;
   text-align: center;
   background-color: #fff;
