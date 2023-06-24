@@ -36,7 +36,8 @@ Navigate through the web page to find the information you need. Use the links in
   Project reside in this Repo and is hosted on Github pages. You can clone the repo or download the files manually to your local machine.
   below is the online link for this website:
 
-
+### How I developed the project
+listen to this recording on  loom (https://www.loom.com/share/b83d1f1f7b0944dca5815f3083b4a04d?sid=be74067f-ee29-45b4-afd8-eac071aafae8)
 ## Authors
 
 👤 **Samuel kinyanjui**
