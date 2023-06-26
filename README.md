@@ -2,10 +2,12 @@
 
 This project contains My Portfolio  desktop version.It shows you everything about me and the services I can provide.
 I it server the clients when my mobile app is not accessible
+We have deployed it on github.io servies
 
-## 🚀 Live Demo
+## 🚀 Live Demo <a name="live-demo"></a>
 
-[Here](https://github.com/samuelkinyanjui/-finish_mobile_version_rev/desktopvesrion)
+- [Live Demo link](https://samuelkinyanjui.github.io/finish_mobile_version_rev/)
+
 
 ## Built With
 
