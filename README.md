@@ -1,28 +1,33 @@
 # My Portfolio
 
-This project contains My Portfolio  desktop version.It shows you everything about me and the services I can provide.
+This project contains My Portfolio  mobile  version.It shows you everything about me and the services I can provide.
 I it server the clients when my mobile app is not accessible
+I have added menu Items that spears on clicking hamburger
 
 ## 🚀 Live Demo
 
-[Here](https://github.com/samuelkinyanjui/-finish_mobile_version_rev/desktopvesrion)
+[Here](https://github.com/samuelkinyanjui/-finish_mobile_version_rev/tree/menu_actions)
 
 ## Built With
 
 - HTML and CSS
 - VSCODE
 - GIT
+- JavaScript
+
+
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 Locate the project folder in the Repository.
-Click on the code button and dowload a zip file for the project locally.
-Locate the index.html file and double click it to view webpage.
+Click on the code button and download a zip file for the project locally.
+Locate the index.html file and double click it to view web page.
 
 ### Prerequisites
-Node.js, stylelint, browser for displaying it's content.
-install node package manager(npm): npm helps to install stylelint.
+Node.js, style lint, browser for displaying it's content.
+install node package manager(npm): npm helps to install style lint.
+Install webhint
 
 
 ### Setup
@@ -30,6 +35,8 @@ Download and install browser.
 
 ### Usage
 Navigate through the web page to find the information you need. Use the links in the pages to move to different sections.
+Select the menu item
+When menu pop up select the page to visit
 
 
 ### Deployment
@@ -57,7 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Thanks to my coding partiners
 - Inspiration
 - etc
 
