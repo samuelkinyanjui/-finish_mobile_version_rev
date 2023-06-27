@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="script.js"></script>
+    
   </head>
   <body>
     <header class="main-header">
-        <a href="#" class="header-title"> Samuel </a>
-       
+        <a href="#" class="header-title"> Samuel </a>      
 
+       <!--- 
         <ul class="header-menu">
           <li onclick="chanageMenu()" class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li onclick="chanageMenu()" class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li onclick="chanageMenu()" class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
         </ul> 
+        --> 
 
         <div class="hamburger">
             <i class="bi bi-list" onclick="changeIcon(this)"></i>
@@ -49,11 +50,8 @@
             </a>
           </div>
 
-        </section>
-      <!-- start of work container -->
-        <div class="works-container" id="portfolio">
-
-          <!-- first part of card works -->
+        </section>     
+        <div class="works-container" id="portfolio">        
           <section class="card-works card-works-1">
             <div class="portfolio-image">
               <img class="snapshot-portfolio-1" src="assets/works/snap1.png" alt="Snap image for background">
@@ -127,10 +125,7 @@
                 <button class="action-btn bg-color" type="button" name="button">See project</button>
               </div>
             </div>
-          </section>
-          <!-- end of third part of card works -->
-
-          <!-- fourth part of card works -->
+          </section>         
           <section class="card-works card-works-4">
             <div class="portfolio-image">
               <img class="snapshot-portfolio-1" src="assets/works/snap4.png" alt="image for portfolio snapshot">
@@ -154,11 +149,9 @@
               </div>
             </div>
           </section>
-          <!-- end of fourth part of card works -->
+    
         </div>
-        <!-- end of work container -->
-
-          <!-- myself section -->
+       
         <section class="myself" id="about">
           <div class="myself-top">
                 <h2 class="about-myself">About Myself</h2>
@@ -253,5 +246,7 @@
         </section>      
 
     </main>
+    <script src="script.js"></script>
   </body>
+
 </html>
