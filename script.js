@@ -20,7 +20,5 @@ function chanageMenu() {
   mainHeader.classList.remove('active');
   iconX.classList.remove('active');
 }
-
 chanageMenu();
 changeIcon();
-
