@@ -8,9 +8,6 @@ function changeIcon(icon) {
   const iconX = document.querySelector('.bi-list');
   iconX.classList.toggle('active');
 }
-
-changeIcon();
-
 function chanageMenu() {
   const HeaderMenu = document.querySelector('.header-menu');
   /* used selector querySlector instaeda id getelemntbyid */
@@ -23,4 +20,7 @@ function chanageMenu() {
   mainHeader.classList.remove('active');
   iconX.classList.remove('active');
 }
+
 chanageMenu();
+changeIcon();
+
