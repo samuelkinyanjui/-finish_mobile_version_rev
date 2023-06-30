@@ -1,3 +1,4 @@
+/* samuel js script */
 function changeIcon() {
   const HeaderMenu = document.querySelector('.header-menu');
   HeaderMenu.classList.toggle('active');
@@ -35,8 +36,8 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     projectInfo: { company: 'CANOPY', role: 'Back END Dev', year: 2015 },
-    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+    seeLive: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
+    seeSource: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
   },
   {
     id: 2,
@@ -46,8 +47,8 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectInfo: { company: 'Facebook', role: 'Back END Dev', year: 2016 },
-    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+    seeLive: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
+    seeSource: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
   },
   {
     id: 3,
@@ -57,8 +58,8 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectInfo: { company: 'Facebook', role: 'Back END Dev', year: 2017 },
-    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+    seeLive: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
+    seeSource: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
   },
   {
     id: 4,
@@ -68,8 +69,8 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectInfo: { company: 'UBER', role: 'Back END Dev', year: 2018 },
-    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+    seeLive: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
+    seeSource: 'https://github.com/samuelkinyanjui/-finish_mobile_version_rev.gi',
   },
 
 ];
@@ -199,39 +200,3 @@ feature4.addEventListener('click', () => {
 IconClose4.addEventListener('click', () => {
   popup4.classList.toggle('active');
 });
-
-// Form Validation
-
-const contactForm = document.getElementById('contact-form');
-const fullName = document.getElementById('name');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
-const errorMessage = document.getElementById('error-message');
-
-function formValidate(event) {
-  if (fullName.value === '' || fullName.value == null) {
-    errorMessage.style.display = 'block';
-    errorMessage.innerHTML = 'Please write your full name.';
-    event.preventDefault();
-  } else if (email.value === '') {
-    errorMessage.style.display = 'block';
-    errorMessage.innerHTML = 'Please write your email address.';
-    event.preventDefault();
-  } else if (email.value !== email.value.toLowerCase()) {
-    errorMessage.style.display = 'block';
-    errorMessage.innerHTML = 'Please write your valid email address in lowercase.';
-    event.preventDefault();
-  } else if (/[A-Z]/.test(email.value)) {
-    errorMessage.style.display = 'block';
-    errorMessage.innerHTML = 'Please use Lowercase in your email address';
-    event.preventDefault();
-  } else if (message.value === '') {
-    errorMessage.style.display = 'block';
-    errorMessage.innerHTML = 'Please write your message.';
-    event.preventDefault();
-  } else {
-    errorMessage.style.display = 'none';
-  }
-}
-
-contactForm.addEventListener('submit', formValidate);

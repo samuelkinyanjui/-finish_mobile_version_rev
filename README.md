@@ -3,6 +3,7 @@
 This project contains My Portfolio  mobile  version.It shows you everything about me and the services I can provide.
 I it server the clients when my mobile app is not accessible
 I have added menu Items that spears on clicking hamburger
+I have added pop up menu that give full description of the individual project
 
 ## 🚀 Live Demo
 
