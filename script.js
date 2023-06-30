@@ -245,7 +245,7 @@ contactForm.addEventListener('submit', () => {
     storeEmail: email.value,
     storeMessage: message.value,
   };
- /* localStorage.setItem('storeData', JSON.stringify(storeData)); */
+localStorage.setItem('storeData', JSON.stringify(storeData)); 
 });
 
 window.onload = function dataLoad() {
