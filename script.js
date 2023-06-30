@@ -227,7 +227,7 @@ function formValidate(event) {
     event.preventDefault();
   } else if (message.value === '') {
     errorMessage.style.display = 'block';
-    errorMessage.innerHTML = 'Please write your message.';
+    errorMessage.innerHTML = 'Please write your Message.';
     event.preventDefault();
   } else {
     errorMessage.style.display = 'none';
