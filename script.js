@@ -236,8 +236,6 @@ function formValidate(event) {
 
 contactForm.addEventListener('submit', formValidate);
 
-
-
 // Preserve data in browsers
 contactForm.addEventListener('submit', () => {
   const storeData = {
@@ -245,7 +243,7 @@ contactForm.addEventListener('submit', () => {
     storeEmail: email.value,
     storeMessage: message.value,
   };
-localStorage.setItem('storeData', JSON.stringify(storeData)); 
+  localStorage.setItem('storeData', JSON.stringify(storeData));
 });
 
 window.onload = function dataLoad() {
