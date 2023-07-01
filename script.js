@@ -11,8 +11,8 @@ function changeIcon() {
 
 changeIcon();
 
-function chanageMenu() {
-  const HeaderMenu = document.querySelector('.header-menu');
+function chanageMenu() {  
+  const HeaderMenu = document.querySelector ('.header-menu');
   const listIcon = document.querySelector('.bi-list');
   const mainHeader = document.querySelector('.main-header');
   const iconX = document.querySelector('.bi-list');
