@@ -3,6 +3,7 @@
 This project contains My Portfolio  mobile  version.It shows you everything about me and the services I can provide.
 I it server the clients when my mobile app is not accessible
 I have added menu Items that spears on clicking hamburger
+I have added
 
 ## 🚀 Live Demo
 
@@ -25,7 +26,7 @@ Click on the code button and download a zip file for the project locally.
 Locate the index.html file and double click it to view web page.
 
 ### Prerequisites
-Node.js, style lint, browser for displaying it's content.
+style lint, browser for displaying it's content.
 install node package manager(npm): npm helps to install style lint.
 Install webhint
 
